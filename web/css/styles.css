@@ -1,0 +1,187 @@
+/* 
+    Created on : Aug 28, 2024, 4:32:29 AM
+    Author     : pasan
+*/
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 28px;
+    color: #034078;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container */
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.form-group .gender-options {
+    display: flex;
+    gap: 20px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #034078;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0271b3;
+}
+
+/* Error Message */
+.errormsg {
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Link Sections */
+.register-link,
+.login-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.register-link p,
+.login-link p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.register-link a,
+.login-link a {
+    color: #034078;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover,
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* User Details */
+.user-details {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-details div {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.user-details div span {
+    font-weight: 600;
+    color: #034078;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .container, .user-details {
+        padding: 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .user-details div {
+        font-size: 14px;
+    }
+}
+
+
+/* Logout Button */
+.logout-button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.logout-button:hover {
+    background-color: #c9302c;
+}
